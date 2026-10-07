@@ -3,7 +3,7 @@ manifestVersion: 1
 id: kraskus-kda-solo
 name: KDA Solo by Kraskus
 tagline: Kadena Chainweb node, backed-up wallet, and true solo mining for Kadena ASICs
-icon: https://raw.githubusercontent.com/kraskuscrypto/Kraskus-Crypto-Dev-Store/018cdf7fcf82684452ac369f5e49a8525571df41/kraskus-kda-solo/assets/kda-emblem.png
+icon: https://raw.githubusercontent.com/kraskuscrypto/Kraskus-Umbrel-Dev-Store/main/kraskus-kda-solo/assets/kda-emblem.png
 category: Mining
 version: 0.1.1
 port: 33075

@@ -3,7 +3,7 @@ manifestVersion: 1
 id: kraskus-common-foundry
 name: Common Foundry
 tagline: Common Foundry mainnet node with encrypted wallet and Kraskus monitoring
-icon: https://raw.githubusercontent.com/kraskuscrypto/Kraskus-Crypto-Dev-Store/018cdf7fcf82684452ac369f5e49a8525571df41/kraskus-common-foundry/assets/cmfd-emblem.png
+icon: https://raw.githubusercontent.com/kraskuscrypto/Kraskus-Umbrel-Dev-Store/main/kraskus-common-foundry/assets/cmfd-emblem.png
 category: Mining
 version: 0.1.3
 port: 33072

@@ -3,11 +3,11 @@ manifestVersion: 1
 id: kraskus-bsv-solo
 name: Bitcoin Satoshi Vision
 tagline: Bitcoin Satoshi Vision node and private solo mining command center
-icon: https://raw.githubusercontent.com/kraskuscrypto/Kraskus-Crypto-Dev-Store/018cdf7fcf82684452ac369f5e49a8525571df41/kraskus-bsv-solo/assets/bsv-emblem-std-v2.png
+icon: https://raw.githubusercontent.com/kraskuscrypto/Kraskus-Umbrel-Dev-Store/main/kraskus-bsv-solo/assets/bsv-emblem-std-v2.png
 category: Mining
 version: 0.3.3
 port: 18422
-description: Bitcoin Satoshi Vision turns 5tratumOS into a self-contained BSV mainnet node (SV Node 1.2.2, pruned, 10 GB excessive block size) and a native GMC-to-Stratum V1 solo-mining controller on port 1922. The Template V2 interface shows node synchronization, one truthful mining-readiness state, workers, shares and blocks confirmed by the node. Miners are refused until the node is synchronized and a valid payout is configured. The built-in wallet receives mining payouts once you have downloaded and verified an encrypted backup of the complete wallet file; the same backup restores the exact wallet on any install. Sending from the built-in wallet is not available. A required 1% developer fee is paid directly from each successful block coinbase.
+description: Bitcoin Satoshi Vision runs a self-contained BSV mainnet node (SV Node 1.2.2, pruned, 10 GB excessive block size) and a native GMC-to-Stratum V1 solo-mining controller on port 1922. The Kraskus interface shows node synchronization, one truthful mining-readiness state, workers, shares and blocks confirmed by the node. Miners are refused until the node is synchronized and a valid payout is configured. The built-in wallet receives mining payouts once you have downloaded and verified an encrypted backup of the complete wallet file; the same backup restores the exact wallet on any install. Sending from the built-in wallet is not available. A required 1% developer fee is paid directly from each successful block coinbase.
 developer: Kraskus Crypto
 website: https://kraskuscrypto.com/
 repo: https://github.com/kraskuscrypto/Kraskus-Crypto-Apps
