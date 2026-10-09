@@ -2,68 +2,80 @@
   "generator": "1.0.0",
   "source_repo": "kraskuscrypto/Kraskus-Crypto-Dev-Store",
   "source_ref": "origin/main",
-  "source_commit": "018cdf7fcf82684452ac369f5e49a8525571df41",
+  "source_commit": "db3ff344d4870541faa85991bd9976fe62a6482b",
   "store_id": "kraskus",
   "apps": [
     {
       "id": "kraskus-bsv-solo",
       "version": "0.3.3",
-      "gpu": false
+      "gpu": false,
+      "ui_unpublished": false
     },
     {
       "id": "kraskus-btc-blake2b-solo",
       "version": "0.2.5",
-      "gpu": false
+      "gpu": false,
+      "ui_unpublished": false
     },
     {
       "id": "kraskus-chta-solo",
       "version": "0.3.1",
-      "gpu": false
+      "gpu": false,
+      "ui_unpublished": false
     },
     {
       "id": "kraskus-common-foundry",
       "version": "0.1.3",
-      "gpu": false
+      "gpu": false,
+      "ui_unpublished": false
     },
     {
       "id": "kraskus-common-foundry-gpu-miner",
       "version": "0.1.3",
-      "gpu": true
+      "gpu": true,
+      "ui_unpublished": false
     },
     {
       "id": "kraskus-dgb-solo",
       "version": "0.1.1",
-      "gpu": false
+      "gpu": false,
+      "ui_unpublished": false
     },
     {
       "id": "kraskus-kaspa-solo",
-      "version": "0.3.1",
-      "gpu": false
+      "version": "0.4.0",
+      "gpu": false,
+      "ui_unpublished": true
     },
     {
       "id": "kraskus-kda-solo",
       "version": "0.1.1",
-      "gpu": false
+      "gpu": false,
+      "ui_unpublished": false
     },
     {
       "id": "kraskus-prl-solo",
       "version": "0.2.1",
-      "gpu": false
+      "gpu": false,
+      "ui_unpublished": false
     },
     {
       "id": "kraskus-quantus-solo",
       "version": "0.1.0",
-      "gpu": false
+      "gpu": false,
+      "ui_unpublished": false
     },
     {
       "id": "kraskus-xmr-solo",
       "version": "0.1.20",
-      "gpu": false
+      "gpu": false,
+      "ui_unpublished": false
     },
     {
       "id": "kraskus-zec-solo",
       "version": "0.4.0",
-      "gpu": false
+      "gpu": false,
+      "ui_unpublished": false
     }
   ]
 }
