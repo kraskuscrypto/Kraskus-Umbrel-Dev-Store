@@ -2,7 +2,7 @@
   "generator": "1.0.0",
   "source_repo": "kraskuscrypto/Kraskus-Crypto-Dev-Store",
   "source_ref": "origin/main",
-  "source_commit": "40f659ad35f72a4da5576d8180da70c410ad85a5",
+  "source_commit": "b121ab43ad818639de187bece86ee56c48ff69ef",
   "store_id": "kraskus",
   "apps": [
     {
@@ -13,7 +13,7 @@
     },
     {
       "id": "kraskus-btc-blake2b-solo",
-      "version": "0.2.5",
+      "version": "0.2.6",
       "gpu": false,
       "ui_unpublished": false
     },
