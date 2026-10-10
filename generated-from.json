@@ -2,7 +2,7 @@
   "generator": "1.0.0",
   "source_repo": "kraskuscrypto/Kraskus-Crypto-Dev-Store",
   "source_ref": "origin/main",
-  "source_commit": "b121ab43ad818639de187bece86ee56c48ff69ef",
+  "source_commit": "fed3ff0fce00702204ac280e69b217b7772dac71",
   "store_id": "kraskus",
   "apps": [
     {
@@ -49,7 +49,7 @@
     },
     {
       "id": "kraskus-quantus-solo",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "gpu": false,
       "ui_unpublished": false
     },
