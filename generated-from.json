@@ -2,7 +2,7 @@
   "generator": "1.0.0",
   "source_repo": "kraskuscrypto/Kraskus-Crypto-Dev-Store",
   "source_ref": "origin/main",
-  "source_commit": "9a89f4b973c4be5a49ee531edcd43b61c7331136",
+  "source_commit": "40f659ad35f72a4da5576d8180da70c410ad85a5",
   "store_id": "kraskus",
   "apps": [
     {
@@ -19,21 +19,9 @@
     },
     {
       "id": "kraskus-chta-solo",
-      "version": "0.3.1",
+      "version": "0.5.0",
       "gpu": false,
-      "ui_unpublished": false
-    },
-    {
-      "id": "kraskus-common-foundry",
-      "version": "0.1.3",
-      "gpu": false,
-      "ui_unpublished": false
-    },
-    {
-      "id": "kraskus-common-foundry-gpu-miner",
-      "version": "0.1.3",
-      "gpu": true,
-      "ui_unpublished": false
+      "ui_unpublished": true
     },
     {
       "id": "kraskus-dgb-solo",
@@ -55,9 +43,9 @@
     },
     {
       "id": "kraskus-prl-solo",
-      "version": "0.2.1",
+      "version": "0.5.0",
       "gpu": false,
-      "ui_unpublished": false
+      "ui_unpublished": true
     },
     {
       "id": "kraskus-quantus-solo",
