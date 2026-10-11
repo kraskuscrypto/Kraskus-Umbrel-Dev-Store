@@ -2,7 +2,7 @@
   "generator": "1.0.0",
   "source_repo": "kraskuscrypto/Kraskus-Crypto-Dev-Store",
   "source_ref": "origin/main",
-  "source_commit": "fed3ff0fce00702204ac280e69b217b7772dac71",
+  "source_commit": "544ebd2e376f2b5046843adffc0ba87bae8343e9",
   "store_id": "kraskus",
   "apps": [
     {
@@ -49,9 +49,13 @@
     },
     {
       "id": "kraskus-quantus-solo",
-      "version": "0.1.1",
+      "version": "0.3.0",
       "gpu": false,
-      "ui_unpublished": false
+      "ui_unpublished": true,
+      "umbrel_deployment": {
+        "service": "adapter",
+        "KRASKUS_PLATFORM": "umbrel"
+      }
     },
     {
       "id": "kraskus-xmr-solo",
