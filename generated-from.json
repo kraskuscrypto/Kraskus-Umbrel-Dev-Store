@@ -2,7 +2,7 @@
   "generator": "1.0.0",
   "source_repo": "kraskuscrypto/Kraskus-Crypto-Dev-Store",
   "source_ref": "origin/main",
-  "source_commit": "544ebd2e376f2b5046843adffc0ba87bae8343e9",
+  "source_commit": "20aa9bbb25d4e18ec5dec5d8848380817f1f8071",
   "store_id": "kraskus",
   "apps": [
     {
@@ -21,7 +21,9 @@
       "id": "kraskus-chta-solo",
       "version": "0.5.0",
       "gpu": false,
-      "ui_unpublished": true
+      "ui_unpublished": true,
+      "held_source_commit": "544ebd2e376f2b5046843adffc0ba87bae8343e9",
+      "icon_source_commit": "20aa9bbb25d4e18ec5dec5d8848380817f1f8071"
     },
     {
       "id": "kraskus-dgb-solo",
