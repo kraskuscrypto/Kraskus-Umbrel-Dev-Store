@@ -42,6 +42,41 @@ from the Blocks page. Per-block share logs are not written.
 `assets/chta-official-emblem-v2.png` is the approved CHTA application emblem
 used by the Store listing.
 
+## 0.5.2
+
+- Network difficulty no longer sticks at about 20 billion. CheetahCoin Core's
+  block template inside the first 80 s after a block is a lottery between the
+  spike target (bits `1836f9bf`, powLimit / 2e10) and the chain's regular
+  work. 0.5.1 ignored that whole window; on a fast chain (blocks every few
+  seconds at low difficulty) the tip is almost never older than 80 s, so 0.5.1
+  kept the last value it had confirmed, which for long-running installs was
+  the spike work of the pre-fork post-spike lock (19,999,698,720.47). 0.5.2
+  takes the template's regular work whenever the lottery did not pick the
+  spike target, so the value follows every block and every retarget.
+- Unchanged: mining, CKPool and its ports (1926, and 1927 with the fixed
+  0.002 difficulty), payouts, the wallet, the 1% developer fee and
+  CheetahCoin Core 2.5.0.
+
+## 0.5.1
+
+- Network difficulty: the app now reports the regular network difficulty from
+  CheetahCoin Core's block template, the same work CKPool hands to miners.
+  A template counts only when Core is in its regular-work window, 81 to 240 s
+  after the previous block, or at a retarget height. 0.5.0 showed Core's
+  tip-block figure, which reads 0.0025 (shown as "0.002") whenever the tip is
+  a cheetah block. Spike and cheetah work, share, port and worker
+  difficulties are never shown as the network difficulty. While the node
+  syncs, or before a value is confirmed, the interface shows "Updating…" and
+  computes no percentage.
+- Best share (this session) is CKPool's current-round best share, which resets
+  when the pool finds a block. It is no longer the all-time best. CKPool
+  records the block-finding share as the first best of the new round, so
+  right after a found block the percentage starts at 100% or more. A miner
+  idle since before the latest found block shows no round best.
+- Mining, payout, the Stratum ports (1926; 1927 at a fixed 0.002), the wallet
+  and the 1% developer fee are unchanged. CheetahCoin Core 2.5.0 and CKPool are
+  the 0.5.0 and 0.3.1 images, unchanged.
+
 ## 0.5.0
 
 - Kraskus V3: the shared V3 interface (Home, Mining, Workers, Blocks, Wallet,
