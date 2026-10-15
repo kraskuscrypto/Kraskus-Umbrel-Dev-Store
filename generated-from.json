@@ -2,12 +2,12 @@
   "generator": "1.0.0",
   "source_repo": "kraskuscrypto/Kraskus-Crypto-Dev-Store",
   "source_ref": "origin/main",
-  "source_commit": "5f804fdf4f3e3102fb29ff619ef39ff8a474cf85",
+  "source_commit": "d67362dae98c4d8c15ce18a7a0f3f3b847c97e0b",
   "store_id": "kraskus",
   "apps": [
     {
       "id": "kraskus-bsv-solo",
-      "version": "0.5.2",
+      "version": "0.5.3",
       "gpu": false,
       "ui_unpublished": true
     },
